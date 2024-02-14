@@ -2,4 +2,4 @@
 
 ### Topics
 
-- [The "Hello World" Program](https://github.com/algorodev/python-essentials-cisco-certification/the-hello-world-program)
+- [The "Hello World" Program](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/the-hello-world-program)
