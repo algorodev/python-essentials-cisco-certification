@@ -7,3 +7,4 @@
 - [Operators - data manipulation tools](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/operators)
 - [Variables](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/varibles)
 - [Comments](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/comments)
+- [Interaction with the user](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/interact-user)
