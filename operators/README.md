@@ -3,3 +3,4 @@
 ### Topics
 
 - [Basic operators](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/operators/basic-operators)
+- [Operators and their priorities](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/operators/priorities)
