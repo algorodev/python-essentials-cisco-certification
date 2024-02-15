@@ -4,3 +4,4 @@
 
 - [Variables names](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/variables/names)
 - [How to create a variable](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/variables/how-create)
+- [How to use a variable](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/variables/how-use)
