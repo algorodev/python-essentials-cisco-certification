@@ -50,12 +50,14 @@ Instead, we'll show you a truncated form, and we'll expand it consistently as we
 
 Look at the table below:
 
-| Priority |                                                   Operator                                                   |        |
-|----------|:------------------------------------------------------------------------------------------------------------:|:------:|
-| 1        |                                                   ```**```                                                   |        |
-| 2        | ```*+```, ```-``` (note: unary operators located next to the right of the power operator bind more strongly) | unary  |
-| 3        |                                     ```*```, ```/```, ```//```, ```%```                                      |        |
-| 4        |                                               ```+```, ```-```                                               | binary |
+| Priority |               Operator               |        |
+|----------|:------------------------------------:|:------:|
+| 1        |           ```+```, ```-```           | unary  |
+| 1        |               ```**```               |        |
+| 3        | ```*```, ```/```, ```//```, ```%```  |        |
+| 4        |           ```+```, ```-```           | binary |
+| 4        | ```<```, ```<=```, ```>```, ```>=``` |        |
+| 4        |          ```==```, ```!=```          |        |
 
 Note: we've enumerated the operators in order **from the highest (1) to the lowest (4) priorities**.
 
@@ -65,4 +67,5 @@ Of course, you're always allowed to use **parentheses**, which can change the na
 
 In accordance with the arithmetic rules, **subexpressions in parentheses are always calculated first**.
 
-You can use as many parentheses as you need, and they're often used to **improve the readability** of an expression, even if they don't change the order of the operations.
+You can use as many parentheses as you need, and they're often used to **improve the readability** of an expression,
+even if they don't change the order of the operations.
