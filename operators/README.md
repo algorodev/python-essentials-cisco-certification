@@ -6,3 +6,4 @@
 - [Operators and their priorities](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/operators/priorities)
 - [Shortcut operations](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/operators/shortcut-operations)
 - [String operators](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/operators/string-operators)
+- [Comparison: equality operator](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/operators/equality)
