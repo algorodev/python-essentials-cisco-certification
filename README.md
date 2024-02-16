@@ -8,3 +8,4 @@
 - [Variables](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/varibles)
 - [Comments](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/comments)
 - [Interaction with the user](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/interact-user)
+- [Statements](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/statements)
