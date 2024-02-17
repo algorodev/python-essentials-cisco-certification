@@ -17,3 +17,18 @@ There are some new elements. Let us tell you about them:
 - the ```range()``` function (this is a very special function) is responsible for generating all the desired values of the control variable; in our example, the function will create (we can even say that it will feed the loop with) subsequent values from the following set: 0, 1, 2 .. 97, 98, 99; note: in this case, the ```range()``` function starts its job from 0 and finishes it one step (one integer number) before the value of its argument;
 - note the _pass_ keyword inside the loop body – it does nothing at all; it's an **empty instruction** – we put it here because the ```for``` loop's syntax demands at least one instruction inside the body (by the way – ```if```, ```elif```, ```else``` and ```while``` express the same thing)
 
+
+### The for loop and the else branch
+
+```for``` loops behave a bit differently. The ```i``` variable retains its last value.
+
+When the loop's body isn't executed, the control variable retains the value it had before the loop.
+
+Note: **if the control variable doesn't exist before the loop starts, it won't exist when the execution reaches the** ```else``` **branch**.
+
+```
+for item in range:
+    do something with the item
+else:
+    do it
+```
