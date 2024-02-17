@@ -1,7 +1,7 @@
 ## Looping your code with while
 
 ```
-while there is something to do
+while there is something to do:
     do it
 ```
 
@@ -28,3 +28,18 @@ while True:
 ```
 
 This loop will infinitely print "I'm stuck inside a loop." on the screen.
+
+### The while loop and the else branch
+
+Both loops, ```while``` and ```for```, have one interesting (and rarely used) feature.
+
+As you may have suspected, **loops may have the** ```else``` **branch too, like** ```if```**s**.
+
+The loop's ```else``` branch is **always executed once, regardless of whether the loop has entered its body or not**.
+
+```
+while there is something to do:
+    do it
+else:
+    do it
+```
