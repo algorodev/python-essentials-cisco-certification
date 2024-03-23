@@ -7,3 +7,4 @@
 - [Shortcut operations](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/operators/shortcut-operations)
 - [String operators](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/operators/string-operators)
 - [Comparison operators](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/operators/comparison-operators)
+- [Logic operators](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/operators/logic-operators)
