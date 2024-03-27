@@ -1,4 +1,4 @@
-<h1 align="center">Cisco Python Essentials Certification</h1>
+<h1 align="center">PCEP - Certified Entry-Level Python Programmer Certification</h1>
 
 ### Topics
 

@@ -36,3 +36,21 @@ print("List sorted by DESC", numbers)
 
 numbers.reverse()
 print("List reversed", numbers)
+
+numbers2 = numbers[:]
+print("New list created of numbers list", numbers2)
+
+numbers3 = numbers[2:4]
+print("New list created of a part of our initial numbers list", numbers3)
+
+numbers4 = numbers[1:-1]
+print("New list created using negative index on slice", numbers4)
+
+del numbers4[2:3]
+print("New 4 list contents:", numbers4)
+
+del numbers3[:]
+print("New 3 list contents:", numbers3)
+
+print("Is there a 5 in my list?", 5 in numbers)
+print("Is there not a 5 in my list?", 5 not in numbers)

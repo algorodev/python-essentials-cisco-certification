@@ -161,3 +161,87 @@ There is also a list method called `reverse()`, which you can use to **reverse t
 numbers.reverse()
 print(numbers)
 ```
+
+### The _slice_ operator
+
+A **slice** is an element of Python syntax that allows you to **make a brand-new copy of a list, or parts of a list**.
+
+It actually copies the list's contents, not the list's name.
+
+```
+numbers2 = numbers[:]
+print(numbers2)
+```
+
+This inconspicuous part of the code described as `[:]` is able to produce a brand new list.
+
+A slice of this form **makes a new (target) list, taking elements from the source list ‒ the elements of the indices from** `start` **to** `end - 1`.
+
+```
+list_name[start:end]
+```
+
+- `start` is the index of the first element **included in the slice**;
+- `end` is the index of the first element **not included in the slice**.
+
+Note: not to `end` but to `end - 1`. An element with an index equal to `end` is the first element which **does not take part in the slicing**.
+
+Using negative values for both start and end is possible (just like in indexing).
+
+```
+numbers3 = numbers[2:4]
+print(numbers3)
+```
+
+This is how negative indices work with the slice:
+
+```
+numbers4 = numbers[1:-1]
+print(numbers4)
+```
+
+If the `start` specifies an element lying further than the one described by the `end` (from the list's beginning), the slice will be **empty**.
+
+If you omit the `start` in your slice, it is assumed that you want to get a slice beginning at the element with index `0`.
+
+Similarly, if you omit the `end` in your slice, it is assumed that you want the slice to end at the element with the index `len`.
+
+As we've said before, omitting both `start` and `end` makes a **copy of the whole list**.
+
+The previously described `del` instruction is able to **delete more than just a list's elements at once ‒ it can delete slices too**.
+
+Note: in this case, the slice **doesn't produce any new list**!
+
+```
+del numbers4[2:3]
+print(numbers4)
+```
+
+Deleting **all the elements** at once is possible too.
+
+```
+del numbers3[:]
+print(numbers3)
+```
+
+### The _in_ and _not_ in operators
+
+Python offers two very powerful operators, able to **look through the list in order to check whether a specific value is stored inside the list or not**.
+
+These operators are:
+
+```
+element in list_name
+element not in list_name
+```
+
+The first of them (`in`) checks if a given element (its left argument) is currently stored somewhere inside the list (the right argument) ‒ the operator returns `True` in this case.
+
+```
+print(5 in numbers)
+```
+
+The second (`not in`) checks if a given element (its left argument) is absent in a list ‒ the operator returns `True` in this case.
+```
+print(5 not in numbers)
+```
