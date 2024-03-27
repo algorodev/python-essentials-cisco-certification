@@ -3,7 +3,7 @@
 ### Topics
 
 - [The "Hello World" Program](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/the-hello-world-program)
-- [Python literals](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/python-literals)
+- [Data Types](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/data-types)
 - [Operators - data manipulation tools](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/operators)
 - [Variables](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/varibles)
 - [Comments](https://github.com/algorodev/python-essentials-cisco-certification/tree/main/comments)
